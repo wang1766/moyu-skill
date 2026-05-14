@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/<your-username>/moyu-skill"
+    "url": "https://github.com/wang1766/moyu-skill"
   },
   "main": "install.js",
   "bin": {
