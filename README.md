@@ -1,4 +1,4 @@
-# 摸鱼 🐟 / MoYu
+# 摸鱼 / MoYu
 
 > 专业摸鱼二十年，工资照拿活不干。
 
@@ -6,7 +6,17 @@
 
 ## 安装
 
-把 `moyu.md` 放到你的项目的 `.claude/commands/` 目录下，完事。
+### npm（推荐）
+
+```bash
+npm install -g moyu-skill
+```
+
+在任意 Claude Code 项目目录下跑一次 `npm install moyu-skill`，skill 会自动装到 `.claude/commands/` 里。
+
+装完在 Claude Code 里说"摸鱼"就行。
+
+### 手动
 
 ```bash
 cp moyu.md ~/your-project/.claude/commands/moyu.md
@@ -16,15 +26,17 @@ cp moyu.md ~/your-project/.claude/commands/moyu.md
 
 在 Claude Code 里随便说一句：
 
-- "摸鱼"
-- "无聊"
-- "不想工作"
-- "好困"
-- "怎么混"
-- "摸一会"
-- "没意思"
+"摸鱼" | "无聊" | "不想工作" | "好困" | "怎么混" | "摸一会" | "没意思"
 
-它回你一句话，不超过 30 字，但能乐半天。
+它回你一句话，不超过 30 字，但能乐半天。不问"还要吗"，不催工作。
+
+### CLI 模式
+
+装完后也能直接在终端跑：
+
+```bash
+npx moyu    # 随机一条摸鱼方案
+```
 
 ## 触发词速查
 
@@ -38,11 +50,11 @@ cp moyu.md ~/your-project/.claude/commands/moyu.md
 
 ## 摸鱼方案分类
 
-- 🖥️ **假装很忙系** — 开 Excel 切 Sheet、对终端皱眉、敲键盘但要确保不产出
-- 🧘 **养生系** — 接水绕远路、上厕所蹲到腿麻、伸懒腰发出"啊——"
-- 🌐 **浏览器系** — eelslap.com、pointerpointer.com、看别人窗外
-- 💻 **终端系** — sl、cmatrix、telnet ASCII 星战
-- 🤔 **哲学系** — 对着窗外发呆叫"架构思考"、算退休倒计时
+- **假装很忙系** — 开 Excel 切 Sheet、对终端皱眉、敲键盘但要确保不产出
+- **养生系** — 接水绕远路、上厕所蹲到腿麻、伸懒腰发出"啊——"
+- **浏览器系** — eelslap.com、pointerpointer.com、看别人窗外
+- **终端系** — sl、cmatrix、telnet ASCII 星战
+- **哲学系** — 对着窗外发呆叫"架构思考"、算退休倒计时
 
 ## 原则
 

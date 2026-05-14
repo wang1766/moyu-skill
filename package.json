@@ -1,0 +1,33 @@
+{
+  "name": "moyu-skill",
+  "version": "1.0.0",
+  "description": "摸鱼助手 - Claude Code 摸鱼 skill，一句话给你一个摸鱼方案",
+  "keywords": [
+    "claude-code",
+    "skill",
+    "moyu",
+    "摸鱼",
+    "slacking",
+    "fun"
+  ],
+  "license": "WTFPL",
+  "author": {
+    "name": "Professional Slacker"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/<your-username>/moyu-skill"
+  },
+  "main": "install.js",
+  "bin": {
+    "moyu": "./cli.js"
+  },
+  "files": [
+    "moyu.md",
+    "install.js",
+    "cli.js"
+  ],
+  "scripts": {
+    "postinstall": "node install.js"
+  }
+}
